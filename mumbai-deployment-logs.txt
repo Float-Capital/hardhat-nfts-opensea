@@ -1,0 +1,57 @@
+yarn run v1.22.4
+$ hardhat deploy --network mumbai
+Compiling 16 files with 0.8.3
+Compilation finished successfully
+mumbai
+deploying "NFTFactory" (tx: 0x5ac2282c05420115defe4b7bd680f641c2094be521ce8059f6258e89204203d0)...: deployed at 0xb363Eb525522985DbFF5B92aBf8128D3809f1636 with 2152242 gas
+NFT Factory deployed to:  0xb363Eb525522985DbFF5B92aBf8128D3809f1636
+mumbai
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network mumbai --contract contracts/NFTFactory.sol:NFTFactory 0xb363Eb525522985DbFF5B92aBf8128D3809f1636  
+
+
+mumbai
+Deploying NFTs with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+50
+NFTDeployed
+NFT deployed to:  0x231875c2EFd1c6c1FD63a2EA4bb58A19921F77bE
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network mumbai --contract contracts/NFT.sol:NFT 0x231875c2EFd1c6c1FD63a2EA4bb58A19921F77bE "Float Capital OHM" "FOHM" "https://float.capital/nfts/" "0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a" "0xeb1bB399997463d8Fd0cb85C89Da0fc958006441" "50" "1000"
+
+
+0x231875c2EFd1c6c1FD63a2EA4bb58A19921F77bE
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+Mint transaction: 
+{
+  hash: '0x017bb0e3369c499735e9e5f3915cf640ecd608b1bf21787af423b7aad2e9842e',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0xb2d05e00', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0174a3', _isBigNumber: true },
+  to: '0x231875c2EFd1c6c1FD63a2EA4bb58A19921F77bE',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 57,
+  data: '0x6a6278420000000000000000000000004d5e31fb11540c8ca118b65a9d0e873fbb72e84a',
+  r: '0x57a69eb5ca13f546c52dcd014b8da1864cc39347832d49b137277848d6a4fb20',
+  s: '0x390debf5a6021b1552cca931d48535a3188cdb0a3b7ab078ad9cd777de602829',
+  v: 160038,
+  creates: null,
+  chainId: 80001,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  1
+Done in 36.87s.

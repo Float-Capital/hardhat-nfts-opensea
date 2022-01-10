@@ -1,0 +1,1109 @@
+yarn run v1.22.4
+$ hardhat deploy --network polygon
+Nothing to compile
+polygon
+reusing "NFTFactory" at 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+NFT Factory deployed to:  0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+polygon
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network polygon --contract contracts/NFTFactory.sol:NFTFactory 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448  
+
+
+polygon
+0x1370c5C10829Efbbd43f5De5E0e76492284C91cd
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x424b14c6f8e055e0bf7f6316023caab84f201f9d
+Mint transaction: 
+{
+  hash: '0xbb715959c520d71bd5cf056ddebe10a2288087cb3df6dc18d8dfe4c5a0e414f1',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 13,
+  data: '0x6a627842000000000000000000000000424b14c6f8e055e0bf7f6316023caab84f201f9d',
+  r: '0xaf13458ba11d61f613d56f89666c5d34c0ab6bc8e085d907c2be693c39fda240',
+  s: '0x56a2b792ec33d375e1d7b07a6c8bfe93165488137c0af6d2c992477140bbb36d',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  1
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x45cb42a5479f598a147201725e4423a48566cfe7
+Mint transaction: 
+{
+  hash: '0x4dee31f0ff37e13a1dafaf3825d5ec83882bec8ba91f9e760bb9d43b9b52edff',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 14,
+  data: '0x6a62784200000000000000000000000045cb42a5479f598a147201725e4423a48566cfe7',
+  r: '0x3b5c72e6ff0fdbfc25388c581c71f88b6262ed94e5f577925536a2c8ae944f12',
+  s: '0x19e7ba043e196ebbe5c9b3ca2dc866d023699534d9a99f4bd3a56c0ec8f43972',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  2
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x47549a1043fb7d6c9029fffa7fa8b1fccc0a248b
+Mint transaction: 
+{
+  hash: '0x062bb798cc01ea1d96416656fd3ffd8d290ce2e5eb383c972cab39283de39ef8',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 15,
+  data: '0x6a62784200000000000000000000000047549a1043fb7d6c9029fffa7fa8b1fccc0a248b',
+  r: '0x022caadae7b6bf151b3c962350cf13e3b00072a70513747839a7ea42a39d7121',
+  s: '0x73219ec476cc023eaa5893210419da6a8d9bfe4a53bc08fa9fb21617be81aad5',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  3
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x4b003868bbd5add0d1251553b829e58ba3cdcd3c
+Mint transaction: 
+{
+  hash: '0x3dfcdf05d5139fd701461d4d34966844088452a5774661998e34fa8ef6df5f24',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131cb', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 16,
+  data: '0x6a6278420000000000000000000000004b003868bbd5add0d1251553b829e58ba3cdcd3c',
+  r: '0x9c988ed041d8ff5ec2d5323f6929466eaf67c46f3268b8f815296e1b099df85d',
+  s: '0x14ecdebe4b50301518d6f6f936cfeba6e7fa3c56d4d2b209f60b7b744e7ea795',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  4
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x4c180462a051ab67d8237ede2c987590df2fbbe6
+Mint transaction: 
+{
+  hash: '0x759addd4df17cd2d7ef8772bc88f9d5cb2992abf40d9c1625624ec412a2e1802',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 17,
+  data: '0x6a6278420000000000000000000000004c180462a051ab67d8237ede2c987590df2fbbe6',
+  r: '0x98d94e403a9570434ad35d51ad25f2e68828a474b18b14b2ea8cfc3ea171bc5b',
+  s: '0x79878fda455e358481d3157943f5b610b1733efdb3cdc643ee61f7dd99e4b5b2',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  5
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x4d25b4aa76d9c7f45bc6128b8096431592409bef
+Mint transaction: 
+{
+  hash: '0xcfc6d845626bb738b908cc27a951c9f526b3e1b44caed1a9646aa08f44634d18',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 18,
+  data: '0x6a6278420000000000000000000000004d25b4aa76d9c7f45bc6128b8096431592409bef',
+  r: '0x4ca975dd05551fbdcfb20a9f9e04d6b5dc8d1146cd16a921d774247bd2a745b8',
+  s: '0x4ca36cb848190dc248d00880f312f2d5fb85ebb624fa15ac5a51dbd7c4408a2d',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  6
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x4d7d5ab7b456839cf0288a776ea0167d105e1d46
+Mint transaction: 
+{
+  hash: '0xd7137583a51d66141ff9ebdc176b8bcd367d3616af87791f73c78114f90b64c1',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 19,
+  data: '0x6a6278420000000000000000000000004d7d5ab7b456839cf0288a776ea0167d105e1d46',
+  r: '0xbf2f812a44429aebf7d29140e10aa2add5de6b0dd1beac67b798d68adc3a81d6',
+  s: '0x154356b194758a484650feef3e3aeb34a0dc719d4b51c2a131c8ac96abb42d9f',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  7
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x5534579ab2552ecdf33df86195e16d7c930c1063
+Mint transaction: 
+{
+  hash: '0x8eaf13c0749524ebe042dd25ec65aa5019d3d21cc2c4573aaaf44e243cadd02b',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 20,
+  data: '0x6a6278420000000000000000000000005534579ab2552ecdf33df86195e16d7c930c1063',
+  r: '0xbe2d8fee66590d9315020fefeb00b531a133c4d87fe5c71b91ec244c0e0bfe12',
+  s: '0x4c600ee069e4d3b183e81482be3ee219b27c92036cbc8fbd34aacfe4460d9de7',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  8
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x5789527ec57ff76286e42673e7b97e692b13f6d0
+Mint transaction: 
+{
+  hash: '0xb436d45f8536e390cb677d253c3dc712a3b47c5791bb0f06d925f14b1d025155',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 21,
+  data: '0x6a6278420000000000000000000000005789527ec57ff76286e42673e7b97e692b13f6d0',
+  r: '0x54e49f5c49452d434a12cd8da01fbf59a959ff77d3cda59898a7cdbf47c0b67d',
+  s: '0x6738c70d1936a65924cf764aadec43ff75c7c077bd9822835f7c799cc5e630a7',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  9
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x5b5c1063b8fc582d7d07f21649a02ba5c325d000
+Mint transaction: 
+{
+  hash: '0xf66c503b1143cc551c5ded8b2437995dbd9ea22b6fae1a5b94d38cd2a4148229',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131cb', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 22,
+  data: '0x6a6278420000000000000000000000005b5c1063b8fc582d7d07f21649a02ba5c325d000',
+  r: '0xe88b67d6a1b5119ad0db2f1a2d90c718f8aa855546e02fd59bd222a55cf84260',
+  s: '0x1c593e5dbce1e0da97d5eb77bee8d272d27bf32e8511325b7d92b0e1d2ba6ea6',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  10
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x5cbc2e0be998456dda7d58de0a55f6f1494e1a84
+Mint transaction: 
+{
+  hash: '0x39e5975590fc895e83d0e7f6e1e067f30b8050f5ee067cdbfeadcff03fec4152',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 23,
+  data: '0x6a6278420000000000000000000000005cbc2e0be998456dda7d58de0a55f6f1494e1a84',
+  r: '0x737549af8f888e9770be1f56387ef7f251020785552861d71ab10bae7f55868d',
+  s: '0x239ea1093dafc5c143c710e0a24a6ace4e1a9058b4e5da0759edc6ed2f0c45d8',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  11
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x5e08ff793beeb061765ba5431ea9284bb81298fd
+Mint transaction: 
+{
+  hash: '0x10fc83599c51466aa5537bcccd485bc3513d6da5919b787c717da46fad73dfd1',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 24,
+  data: '0x6a6278420000000000000000000000005e08ff793beeb061765ba5431ea9284bb81298fd',
+  r: '0xb57015906ba831a808762b646881c1eb582ccd19cc5d559d5d27766592e246cf',
+  s: '0x1911db782af7384228955170690305cab6ae899b4b64ebd1e94282de984621b2',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  12
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x62ac381a3faf7b1f12072f7f1aeea221cbaf4bfd
+Mint transaction: 
+{
+  hash: '0x70c44cf2be28ae57ff4eb7fe4449fa4be20caccb5f1c489713f4becbf1017f9c',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 25,
+  data: '0x6a62784200000000000000000000000062ac381a3faf7b1f12072f7f1aeea221cbaf4bfd',
+  r: '0x2665ef4edd67d473a157cf143dbf109a9392d9abdd9e7e3e64e3b8b808228712',
+  s: '0x11206a0aeda92388d7041c69c14cc4c015d6c525c255d7f7b89b4b44dcbbc67d',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  13
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x633c2ece13b33502d6cfb8d054821625600c7bc6
+Mint transaction: 
+{
+  hash: '0xe4f69b36ec09d6cd983329a26ad97a883f937050d61c6700c5f620156658b977',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 26,
+  data: '0x6a627842000000000000000000000000633c2ece13b33502d6cfb8d054821625600c7bc6',
+  r: '0xf4794786833f59bf61d867e5a55211efdb44a9055bdc1d1f13090e9ba10ee67c',
+  s: '0x61f8106c78ebcac85c6eb3a5aad69a9af64e88d63ef5ea25e56f9544d485e3ce',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  14
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x63f988e896750cc2408fa6d347acd9c68670230c
+Mint transaction: 
+{
+  hash: '0x3fe5ef50379546725d511638d0e09f29de187fe27908c313bd86eba730aa7564',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 27,
+  data: '0x6a62784200000000000000000000000063f988e896750cc2408fa6d347acd9c68670230c',
+  r: '0x8d96685c2cd8959a9a1a2a9a9ec7ffe57bb3c7bdc00897739a75892048d65842',
+  s: '0x58ae53a20e669e3378d91b428a79b2c7085bab0a1cc4a562dad22ac4b770634e',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  15
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x69b38da50a977dc61c7571c9dc8192ea1a884dcb
+Mint transaction: 
+{
+  hash: '0x82aaed9e3e4427339e759d1e47a01d63e8c83619944464b1a5a838fae2c0dab6',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 28,
+  data: '0x6a62784200000000000000000000000069b38da50a977dc61c7571c9dc8192ea1a884dcb',
+  r: '0xc5fb4a10f31876a1965528214c8e407531adb39b50fd73930d44fd238735268f',
+  s: '0x6bc03ea4270a0ed2478d5aa13b96bea94ae4385c4407b3c4db8993ca750a19f2',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  16
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x6ddfa3ec80a7b2b71037bdef63129e78f4dea630
+Mint transaction: 
+{
+  hash: '0x409a712cd3423758567a409168589c39f1b50bb4e73a3b46d43f6eb17c3b118e',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 29,
+  data: '0x6a6278420000000000000000000000006ddfa3ec80a7b2b71037bdef63129e78f4dea630',
+  r: '0xe9b72dcd2db7e2c6fb614afd78a47b1093d75d47971aa30d13958f057d3cb406',
+  s: '0x468e3155b9314828e9b8248e9a7ad3a6523c2a84014bef5cba994e92072c505e',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  17
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x6e30b5d49405e7245b47633a463b935d50df197f
+Mint transaction: 
+{
+  hash: '0x5ad5c0a271a201ff829db0e698d521a6cb219efeeec8dce1749e2c3151e68fec',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 30,
+  data: '0x6a6278420000000000000000000000006e30b5d49405e7245b47633a463b935d50df197f',
+  r: '0xc91efbe293738f688216807e944df0336bee42bebadf86405d1b4eaf5720dcbf',
+  s: '0x33d5e91eda4ef36ee48ba17e42e33a2e1d87fd644c22ce946101c26fb8500198',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  18
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x706164b84fe27f214709ae0e51703a9e0de0cde3
+Mint transaction: 
+{
+  hash: '0xe63273073dc4ac7c115bd98b4d397e2358ebd9536caee5384bc6ffb0c360eca4',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 31,
+  data: '0x6a627842000000000000000000000000706164b84fe27f214709ae0e51703a9e0de0cde3',
+  r: '0x67fa13b36b8fdda38055c95f2b29205cff2019439096bc282363a1a641a869e9',
+  s: '0x148f5ee5c271c0aed828437e18636573f0d57e1c28788877be7c39784c48a555',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  19
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x75a35f615cb1bc590e83fbbbc1fe10aa7b58fdc1
+Mint transaction: 
+{
+  hash: '0xfe95e289b1f6e5c531a2cd656ec7f0df02aee4fa10548a3ad115f2b7db426ad9',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 32,
+  data: '0x6a62784200000000000000000000000075a35f615cb1bc590e83fbbbc1fe10aa7b58fdc1',
+  r: '0x6b0f6685f2799b85fb305e19f5561c154b03ffa6c03a82e0278ca99e38881a3d',
+  s: '0x652762e61bd6d918822b3d8fb719df588426dc793ed7a07f4f80ab128ae63c6b',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  20
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x82ba2e78ae4ede05cfed4402de9aba455ee86140
+Mint transaction: 
+{
+  hash: '0x90230d76ea7b509ab2dc4fcf6336ec329cf7881110cc3e3ce0df03867c1844fd',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 33,
+  data: '0x6a62784200000000000000000000000082ba2e78ae4ede05cfed4402de9aba455ee86140',
+  r: '0x8bf499459b2b2c5e25eae1907dd19c04fd12828c5475bade7ec2a6ccb8e4afa6',
+  s: '0x7da306d3d73715f061cb19c450ec679092326f1f69dc0e07f5d03de0ff60b123',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  21
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x834e5eb431f00a67c77921750aa3ffc13673b3c7
+Mint transaction: 
+{
+  hash: '0x2ef01c9467db561431fd3bdce97d960a02f8adaf66a622478abeae88da149e3d',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 34,
+  data: '0x6a627842000000000000000000000000834e5eb431f00a67c77921750aa3ffc13673b3c7',
+  r: '0x067786dd6108e471d788377710a3bf5e191db39dcd672f09fa60136388ba5908',
+  s: '0x156d25497e71f9e5004a877ed8ec211e3fa58a33e3cd7569c83f732462759466',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  22
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x8410f253b0a9b2ae89d71363895610e74ebd160a
+Mint transaction: 
+{
+  hash: '0xa5f7e1d3b8a2705c0b1b48caad914bc42b07600fceb0e978c8af178ae9197c51',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 35,
+  data: '0x6a6278420000000000000000000000008410f253b0a9b2ae89d71363895610e74ebd160a',
+  r: '0xbab6a60454892105050aa7506023bbac1a642c86890678193c51519463156025',
+  s: '0x09c643e4b464ee91e1db81da987ce005bda6d164e2092bf882791ca4a5aa5da8',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  23
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x84763fc817bfbe0e9690c7f7fafecb7398e00740
+Mint transaction: 
+{
+  hash: '0x7db185a24087e40e034811eca256a0fee6d7759e19e7bcfb62ba9a37200bcd19',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 36,
+  data: '0x6a62784200000000000000000000000084763fc817bfbe0e9690c7f7fafecb7398e00740',
+  r: '0xf5cbc9b26ef25771517d8660287485e5c437b81ea69518383f69271b0a0cdd81',
+  s: '0x2cc3b4795b7a08f256c23230299ca8a3bf166542e988693a5bfd388fe36f870e',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  24
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x8940c041568d636e1b879e9a1b29e89e6e6ecdda
+Mint transaction: 
+{
+  hash: '0xdbf83a45264aac60599e595efb7d51257cc27b87f579f8cf95cc2c67b970ac62',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 37,
+  data: '0x6a6278420000000000000000000000008940c041568d636e1b879e9a1b29e89e6e6ecdda',
+  r: '0xd103f4681360a8cc494c3cfd9d676379cf5c06a0bb3eaeb32e541d9b7d0cd77f',
+  s: '0x4db5c47dfc11d0ab19fd077c94cd5467495007cc653531afe81a44c2d42647b6',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  25
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x9801de82890609bc5bdd304f90cd1d4234fb5fcf
+Mint transaction: 
+{
+  hash: '0x371a514f2231efe88583a54f6526ee37576b618c9056844b7da0b0d7bbb70612',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 38,
+  data: '0x6a6278420000000000000000000000009801de82890609bc5bdd304f90cd1d4234fb5fcf',
+  r: '0x8fa8d00242053ed303bb3b1687bba8e1740edda9a4d7224e79c6983b450ae612',
+  s: '0x000eaf17de43024677c67d2bde81ca013313aa80d5b623fa597e352d98f99ea3',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  26
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x9890555bd269be45e85030ebef8349015e2cd668
+Mint transaction: 
+{
+  hash: '0xede277079aead60381bf77b867a982e72ba48df235e5058781a94cc37763448f',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 39,
+  data: '0x6a6278420000000000000000000000009890555bd269be45e85030ebef8349015e2cd668',
+  r: '0x68858590fd7db8aa5f89f7f2b9fcf9083bf38808434dd8ca553bf31cf9b804c8',
+  s: '0x3213026c3e2d58cad43218d3b9480d35e28b5467c7a377f775329617e82fa810',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  27
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x9b1ac8e6d08053c55713d9aa8fde1c53e9a929e2
+Mint transaction: 
+{
+  hash: '0xc9b08f7c9f4d1d69cb8bc66687a8956a606bf729301afd0a12eb6bd653cd289d',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 40,
+  data: '0x6a6278420000000000000000000000009b1ac8e6d08053c55713d9aa8fde1c53e9a929e2',
+  r: '0x49760096617ad9835d15ee51f940c3756a56a064b6f53cd0290ec744104f96b1',
+  s: '0x195c30668ea6bf2bb00169175b1f44d453b99f3cfda681e9a96abf8fc5e36ce1',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  28
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xa6fe0aa496e2aa4a228b1980f209a638cf4c2178
+Mint transaction: 
+{
+  hash: '0x4583f1733c3361e5aa89ae5737717c1295597bafee8c54c79a03770ead4808a4',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 41,
+  data: '0x6a627842000000000000000000000000a6fe0aa496e2aa4a228b1980f209a638cf4c2178',
+  r: '0xa3b1bb1b2ab31dd1f58fe66afdab37f7d353d961e12c935fc5d2907c82e4be22',
+  s: '0x27095e245a9cb09da9c24e1a0ce37a27f493b11cec34bed1c81c4ffa18942f22',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  29
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xa9af9a1fbba35f0138d959bb95fe3399a3d8b158
+Mint transaction: 
+{
+  hash: '0x11c9aa65873ad6f7dc720826335b0409df764cfc240e6881e160cd05fa70078a',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 42,
+  data: '0x6a627842000000000000000000000000a9af9a1fbba35f0138d959bb95fe3399a3d8b158',
+  r: '0xc8f8eb8988ef3dbdf2e8de20ae79fc09750ed1dd087af751531524cfcf853dc5',
+  s: '0x14c8d3af7227be3ff5e73483c99536d5afd8551c3761073cd945d4526c5e4450',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  30
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xab95d2cd70a80469985fafe7457de81498211ed4
+Mint transaction: 
+{
+  hash: '0x7a4c496f2db83997c56c43c886148b2cbaba51f77ce442bf2adce3e2503ac229',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 43,
+  data: '0x6a627842000000000000000000000000ab95d2cd70a80469985fafe7457de81498211ed4',
+  r: '0x2cde2f0425d8900524dfe65c6f98acc23fdbb7c1a82dddd22c247caaddea865e',
+  s: '0x43135005233427448cbb492a91424dd3c0d3b2b4ba0a30ddcc4b961bcaa47e38',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  31
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xabc508dda7517f195e416d77c822a4861961947a
+Mint transaction: 
+{
+  hash: '0x20e74137cd4e2695aeca3ede7f7d3142eabbda20400d28d6ddb55bdb85459ffd',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 44,
+  data: '0x6a627842000000000000000000000000abc508dda7517f195e416d77c822a4861961947a',
+  r: '0x8d360dc3f759821625300a2f8f734d45545b66b6b7852ea256664d8d822bdbc3',
+  s: '0x0470f0bfc2e10b05a4aa80b393a23774efafdbfbb2be75246a31d9dc5178959d',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  32
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xb1e8ef9d3732c55790411b341fc2164a87c433fc
+Mint transaction: 
+{
+  hash: '0xdd0a81612f5bdc7916bf63674194ef571055fe6a2ec0d2de8ecc6f5761c7901a',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 45,
+  data: '0x6a627842000000000000000000000000b1e8ef9d3732c55790411b341fc2164a87c433fc',
+  r: '0x3026cd86f462347e96d02040e1fc7196a8af6f444889a475758cc6f19341a397',
+  s: '0x7978a54b7ec4d8589df952e649057fa9c7615f6331c36ccb5b68c7bc10bfa55d',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  33
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xb30ec70639a499af4b4040e2be7385d44009af7f
+Mint transaction: 
+{
+  hash: '0x6e35fea446c075a83bdf4cdbd3883c1dc7455e0c2d04702f755ed9f7d76570e8',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 46,
+  data: '0x6a627842000000000000000000000000b30ec70639a499af4b4040e2be7385d44009af7f',
+  r: '0xb134b470730331f0bc10ea1b82f235bcc51489889cc91dce3ed95fca373e8010',
+  s: '0x3817123dcf1437c17ee0c2a1ae0a42e3e18ed2a437a944bc620f1747100e4439',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  34
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xb4fb750c50be4783c4c2d72cde95ba764ef12c12
+Mint transaction: 
+{
+  hash: '0xb3fa85b49ca7289d69862de695225fe7cd826d581cf30ce3c27951a33124edd3',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 47,
+  data: '0x6a627842000000000000000000000000b4fb750c50be4783c4c2d72cde95ba764ef12c12',
+  r: '0x818477bd4c6969a6088baae92c25406de74a6d52b5a5aefcc7187a5c21f5e1cc',
+  s: '0x044d2abfe386d12c429b0775f73fe9ff77e82c15e8a0e383e01527c4eab35d4a',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  35
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xb6ebe1562b26496d00ddba4b50e2bf72caedfade
+Mint transaction: 
+{
+  hash: '0x88b3948734fe9beb94e401e8a457cc31b23a561db349c8f13e916a1504e78297',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131cb', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 48,
+  data: '0x6a627842000000000000000000000000b6ebe1562b26496d00ddba4b50e2bf72caedfade',
+  r: '0xd3ff2a03f63b2d47ebc2b95c609b692715f4554d7fbe3e2b1f74f76ec718bf0c',
+  s: '0x711d2b9a6778c9162ac64ec66f098dba6931b596a5b41d2cbfb193cb172ddf95',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  36
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xb9a708c67e2e13035a5feb0f1a2f9e3b625ebd62
+Mint transaction: 
+{
+  hash: '0xc853edb23773d02986935af45ae17f823fea61c05e26b0fb61404f720d2fe608',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 49,
+  data: '0x6a627842000000000000000000000000b9a708c67e2e13035a5feb0f1a2f9e3b625ebd62',
+  r: '0x22fe69e029ba55829cd9286686afd6515938332ac56f8852c4e6ff71648aa1a2',
+  s: '0x3b5d49ab03efd1c6a412251bdeb148b232f2c0481264f1088d3077745936c1b0',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  37
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xc0219876097fd317bb55558dc1708ee649854a56
+Mint transaction: 
+{
+  hash: '0x89ea085bb7aa2e0ce588ef3ec4e79e273882b5250a10f259591aa77e7f928803',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 50,
+  data: '0x6a627842000000000000000000000000c0219876097fd317bb55558dc1708ee649854a56',
+  r: '0x0bee90fdef06150ecbebdd56aef5a03607d2ad4295959ca49270d16f685d7bdb',
+  s: '0x1aea30170e43c8e531a194e13ab1e5d4cdad92b86fdcf959c0c22a23f5e36103',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  38
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0xc7b6c81fe19a0aad919e289554a90ace36954d89
+Mint transaction: 
+{
+  hash: '0x7dc11de50fc9387424d4cc3c3d29bc8046c5af28d62344ff97c57a4e1e6092b7',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 51,
+  data: '0x6a627842000000000000000000000000c7b6c81fe19a0aad919e289554a90ace36954d89',
+  r: '0x6835c15f73da5974fead04e738af7fbcb50f2e18c3a14793c5d552544ba1f606',
+  s: '0x13126ad5e0e01de6980ffc58659f3f05f7ae9db691d974470d755a147eab13d3',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  39
+Done in 150.85s.

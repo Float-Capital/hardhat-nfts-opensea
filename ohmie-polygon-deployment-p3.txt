@@ -1,0 +1,47 @@
+yarn run v1.22.4
+$ hardhat deploy --network polygon
+Nothing to compile
+polygon
+reusing "NFTFactory" at 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+NFT Factory deployed to:  0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+polygon
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network polygon --contract contracts/NFTFactory.sol:NFTFactory 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448  
+
+
+polygon
+0x1370c5C10829Efbbd43f5De5E0e76492284C91cd
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x1d9329f4d69daf9e323177abe998cbde5063aa2e
+Mint transaction: 
+{
+  hash: '0x7684fbb0b78d7902b7b0d1942c20c3e3326ee44e07ee1b27bd0ba785d375a408',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x14f46b0400', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 5,
+  data: '0x6a6278420000000000000000000000001d9329f4d69daf9e323177abe998cbde5063aa2e',
+  r: '0x3872b595547fc1fe16af97f89ffe682c3ff0427a9eabaae8cb0792fd5a17d76f',
+  s: '0x30f1f88412cacd25a551f7af08e6f08e3c010131bd05a94d6d545ffb7f5940fd',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  1
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x3549c785147590d054ba53f83e2466eae3160527

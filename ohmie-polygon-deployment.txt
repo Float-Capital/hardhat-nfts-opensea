@@ -1,0 +1,60 @@
+yarn run v1.22.4
+$ hardhat deploy --network polygon
+Nothing to compile
+polygon
+deploying "NFTFactory" (tx: 0xed3d0a71e14a8ed5e21380c4f572d77f6b60f859872bd3be9ff4c5949942db18)...: deployed at 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448 with 2152242 gas
+NFT Factory deployed to:  0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+polygon
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network polygon --contract contracts/NFTFactory.sol:NFTFactory 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448  
+
+
+polygon
+Deploying NFTs with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+50
+NFTDeployed
+NFT deployed to:  0x1370c5C10829Efbbd43f5De5E0e76492284C91cd
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network polygon --contract contracts/NFT.sol:NFT 0x1370c5C10829Efbbd43f5De5E0e76492284C91cd "Float Capital OHM" "FOHM" "https://float.capital/nfts/" "0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a" "undefined" "50" "1000"
+
+
+0x1370c5C10829Efbbd43f5De5E0e76492284C91cd
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x08902d16fd1afe650a7f8e2c64eba65d03138771
+Mint transaction: 
+{
+  hash: '0xce87030f7ab0ecf747fd7b2c7c2a3c401218f30b3073fd9f974549dfc2659750',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x0df8475800', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0174a3', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 2,
+  data: '0x6a62784200000000000000000000000008902d16fd1afe650a7f8e2c64eba65d03138771',
+  r: '0xe4bbe9cd5c069318e8a539ac3af1919d7d984ba72751cf3debc41b058f1bea8f',
+  s: '0x7dbd05c9cc49aa158a09839c1384ec2a2592abdc5f0937068b24694d956df17a',
+  v: 310,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  1
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x0b82fddcfc6b6f4b2d64bac5fc40b9d006c2cce5
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

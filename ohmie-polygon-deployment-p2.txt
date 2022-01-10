@@ -1,0 +1,77 @@
+yarn run v1.22.4
+$ hardhat deploy --network polygon
+Nothing to compile
+polygon
+reusing "NFTFactory" at 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+NFT Factory deployed to:  0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448
+polygon
+
+
+Contract verification command
+----------------------------------
+npx hardhat verify --network polygon --contract contracts/NFTFactory.sol:NFTFactory 0x44fDa16C24b23C40eBD572D8A98f7a0d6449f448  
+
+
+polygon
+0x1370c5C10829Efbbd43f5De5E0e76492284C91cd
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x0b82fddcfc6b6f4b2d64bac5fc40b9d006c2cce5
+Mint transaction: 
+{
+  hash: '0xf6d55b32abf35d858bb80caaed2ae13cdf6e4902f4d624c4a02f76802ebdde7b',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x104c533c00', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131d7', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 3,
+  data: '0x6a6278420000000000000000000000000b82fddcfc6b6f4b2d64bac5fc40b9d006c2cce5',
+  r: '0x37db93a036a6e77dd73434a0a65f9cb1c7c34a884a9bc7f91e82e6a044482b3c',
+  s: '0x3dfd56cd918160073230964a82005f4a9107e987e2c67481dcf388057a5e59c7',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  1
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x1cd2eb4e9b2efaf76fc6637b5d3ce3498d5c5000
+Mint transaction: 
+{
+  hash: '0x7484ffbecba8b432c25d508717b9b034b4ed5a2e34a8a78b4d5fe4285e54a75e',
+  type: 0,
+  accessList: null,
+  blockHash: null,
+  blockNumber: null,
+  transactionIndex: null,
+  confirmations: 0,
+  from: '0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a',
+  gasPrice: BigNumber { _hex: '0x104c533c00', _isBigNumber: true },
+  gasLimit: BigNumber { _hex: '0x0131cb', _isBigNumber: true },
+  to: '0x1370c5C10829Efbbd43f5De5E0e76492284C91cd',
+  value: BigNumber { _hex: '0x00', _isBigNumber: true },
+  nonce: 4,
+  data: '0x6a6278420000000000000000000000001cd2eb4e9b2efaf76fc6637b5d3ce3498d5c5000',
+  r: '0xcf058607aacdb8950651cdd90408679ca076fa46a689091e448b9aeed19c02a9',
+  s: '0x605d21b0690c9d632780a0b90059708418c5418232c9e9573d2145e06015fcbc',
+  v: 309,
+  creates: null,
+  chainId: 137,
+  wait: [Function]
+}
+Minting complete
+Minting tokenId:  2
+Minting tokens with the account: 0x4d5e31Fb11540c8Ca118B65a9D0e873fbB72e84a
+------------------------------------------------------------
+Minting to:  0x1d9329f4d69daf9e323177abe998cbde5063aa2e
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

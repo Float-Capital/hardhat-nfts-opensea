@@ -1,16 +1,15 @@
 const { network } = require("hardhat");
-const {
-  Factory,
-  ,
-} = require("../hardhat.contracts.helpers");
+const { NFTFactory, NFT } = require("../hardhat.contracts.helpers");
 
 let networkToUse = network.name;
+
+const treasury = "0xeb1bB399997463d8Fd0cb85C89Da0fc958006441";
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
   const { deploy } = deployments;
   const accounts = await ethers.getSigners();
   const deployer = accounts[0];
-  const feeRecipient = accounts[1];
+  const feeRecipient = treasury;
 
   let config;
   let networkConfirmations;
@@ -31,34 +30,38 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     throw new Error(`network ${networkToUse} un-accounted for`);
   }
 
-  let { nfts } = config;
+  let { nft } = config;
 
-  for (var i = 0; i < nfts.length; i++) {
-    let nft = nfts[i];
-    let numTokens = nft.numberOfTokens;
-    let bps = 1000;
-    // deploy nft
-    let nftAddress = await deployNFT(
-      deployer,
-      feeRecipient,
-      networkConfirmations,
-      nft.name,
-      nft.symbol,
-      nft.baseURI,
-      numTokens,
-      bps
-    );
-    console.log(nftAddress);
+  let numTokens = nft.numberOfTokens;
+  let bps = 1000;
+  // deploy nft
+  let nftAddress = "0x1370c5C10829Efbbd43f5De5E0e76492284C91cd";
+  // let nftAddress = await deployNFT(
+  //   deployer,
+  //   feeRecipient,
+  //   networkConfirmations,
+  //   nft.name,
+  //   nft.symbol,
+  //   nft.baseURI,
+  //   numTokens,
+  //   bps
+  // );
+  console.log(nftAddress);
 
+  for (var i = 0; i < nft.receiverAddresses.length; i++) {
     // mint tokens
-    await mintCollection(
+    await mintNft(
       deployer,
       nftAddress,
       nft.name,
       nft.symbol,
-      nft.receiverAddress,
+      nft.receiverAddresses[i],
       nft.numberOfTokens
     );
+
+    let tokenId = i + 1;
+
+    console.log("Minting tokenId: ", tokenId);
   }
 };
 
@@ -74,9 +77,9 @@ async function deployNFT(
 ) {
   console.log("Deploying NFTs with the account:", deployer.address);
 
-  const Erc721Factory = await deployments.get(Factory);
+  const Erc721Factory = await deployments.get(NFTFactory);
   const erc721Factory = await ethers.getContractAt(
-    Factory,
+    NFTFactory,
     Erc721Factory.address
   );
   console.log(numTokens);
@@ -88,7 +91,7 @@ async function deployNFT(
       symbol,
       baseURI,
       deployer.address,
-      feeRecipient.address,
+      feeRecipient,
       numTokens,
       feeBps
     );
@@ -111,7 +114,7 @@ async function deployNFT(
   console.log("Contract verification command");
   console.log("----------------------------------");
   console.log(
-    `npx hardhat verify --network ${networkToUse} --contract contracts/${}.sol:${} ${nftAddress} "${name}" "${symbol}" "${baseURI}" "${deployer.address}" "${feeRecipient.address}" "${numTokens}" "${feeBps}"`
+    `npx hardhat verify --network ${networkToUse} --contract contracts/${NFT}.sol:${NFT} ${nftAddress} "${name}" "${symbol}" "${baseURI}" "${deployer.address}" "${feeRecipient.address}" "${numTokens}" "${feeBps}"`
   );
   console.log("");
   console.log("");
@@ -119,31 +122,20 @@ async function deployNFT(
   return nftAddress;
 }
 
-async function mintCollection(
-  admin,
-  nftAddress,
-  name,
-  symbol,
-  receiverAddress,
-  numberOfTokens
-) {
+async function mintNft(admin, nftAddress, name, symbol, receiverAddress) {
   console.log("Minting tokens with the account:", admin.address);
 
-  const erc721 = await ethers.getContractAt(, nftAddress);
+  const erc721 = await ethers.getContractAt(NFT, nftAddress);
 
-  for (var i = 0; i < numberOfTokens; i++) {
-    console.log("------------------------------------------------------------");
+  console.log("------------------------------------------------------------");
 
-    let tokenId = i + 1;
+  console.log("Minting to: ", receiverAddress);
 
-    console.log("Minting tokenId: ", tokenId);
-    console.log("Minting to: ", receiverAddress);
+  let mintTx = await erc721.connect(admin).mint(receiverAddress);
 
-    let mintTx = await erc721.connect(admin).mint(receiverAddress);
+  console.log("Mint transaction: ");
+  console.log(mintTx);
 
-    console.log("Mint transaction: ");
-    console.log(mintTx);
-  }
   console.log("Minting complete");
 }
 
