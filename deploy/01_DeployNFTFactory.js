@@ -1,5 +1,5 @@
 const { network } = require("hardhat");
-const { Factory } = require("../hardhat.contracts.helpers");
+const { NFTFactory } = require("../hardhat.contracts.helpers");
 
 let networkToUse = network.name;
 
@@ -20,12 +20,12 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     throw new Error(`network ${networkToUse} un-accounted for`);
   }
 
-  let FactoryContract = await deploy(Factory, {
+  let FactoryContract = await deploy(NFTFactory, {
     from: deployer.address,
     log: true,
   });
 
-  console.log(" NFT Factory deployed to: ", FactoryContract.address);
+  console.log("NFT Factory deployed to: ", FactoryContract.address);
 
   if (networkToUse == "mumbai" || networkToUse == "polygon") {
     console.log(networkToUse);
@@ -34,7 +34,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     console.log("Contract verification command");
     console.log("----------------------------------");
     console.log(
-      `npx hardhat verify --network ${networkToUse} --contract contracts/${Factory}.sol:${Factory} ${FactoryContract.address}  `
+      `npx hardhat verify --network ${networkToUse} --contract contracts/${NFTFactory}.sol:${NFTFactory} ${FactoryContract.address}  `
     );
     console.log("");
     console.log("");

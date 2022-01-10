@@ -59,7 +59,7 @@ module.exports = {
       // "https://matic-mainnet.chainstacklabs.com",
       url: polygonProviderUrl || "https://polygon-rpc.com/",
       accounts: { mnemonic },
-      gasPrice: 60000000000, // 60 gwei
+      gasPrice: 90000000000, // 60 gwei
       // gas: 10000000, // <- defaults to 'auto'
     },
     mumbai: {
